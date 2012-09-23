@@ -1,5 +1,5 @@
 $(call inherit-product, device/samsung/p1n/full_p1n.mk)
-$(call inherit-product, vendor/aokp/configs/common_tablet.mk)
+$(call inherit-product, vendor/aokp/configs/common_tablet_small.mk)
 $(call inherit-product, vendor/aokp/configs/gsm.mk)
 
 # Release name
