@@ -8,10 +8,6 @@ PRODUCT_NAME := full_p1n
 PRODUCT_DEVICE := p1n
 PRODUCT_MODEL := GT-P1000N
 
-# kernel
-TARGET_KERNEL_SOURCE := kernel/samsung/p1
-TARGET_KERNEL_CONFIG := cyanogenmod_p1n_defconfig
-
 # asserts
 TARGET_OTA_ASSERT_DEVICE := galaxytab,$(PRODUCT_MODEL)
 
